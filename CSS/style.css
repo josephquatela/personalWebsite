@@ -1,5 +1,5 @@
 :root {
-    --accent-color: rgb(11, 228, 145);
+    --accent-color: #ad9822;
 }
 
 * {
@@ -31,10 +31,19 @@ nav {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-nav p {
+.logo {
     padding: 10px;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 20px;
+    text-decoration: none;
+    color: var(--accent-color);
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.logo:hover {
+    border: 2px solid var(--accent-color);
 }
 
 nav ol {
@@ -91,10 +100,11 @@ nav ol a :hover {
     z-index: 3;
     color: rgba(255, 255, 255, 1);
     text-shadow: 4px 0 0 var(--accent-color);
+    line-height: 1em;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
-    i {
+    d {
         position: absolute;
         height: 200px;
         background: linear-gradient(transparent, white);
@@ -233,7 +243,7 @@ nav ol a :hover {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background: var(--accent-color);
+    background: linear-gradient(to bottom right, rgb(240, 216, 3), var(--accent-color));
 }
 
 .skills-header {
@@ -281,6 +291,65 @@ nav ol a :hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     min-height: 100vh;
     background: black;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content h1 {
+    color: white;
+    font-size: 5em;
+}
+
+.contact-content h3 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+.contact-me p {
+    color: white;
+    font-weight: bold;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-buttons a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.contact-buttons a:hover {
+    color: var(--accent-color);
+}
+
+.contact {
+    color: var(--accent-color);
+}
+
+.c-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
 }

@@ -5,7 +5,7 @@ function rain() {
     let amount = 100;
 
     for (let i = 0; i < amount; i++) {
-        let drop = document.createElement('i');
+        let drop = document.createElement('d');
         let size = Math.random() * 5;
         let posX = Math.floor(Math.random() * section.clientWidth);
         let delay = Math.random() * -20;
@@ -21,3 +21,5 @@ function rain() {
 }
 
 rain()
+
+
