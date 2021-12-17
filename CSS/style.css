@@ -103,6 +103,7 @@ nav ol a :hover {
     line-height: 1em;
 }
 
+
 @media screen and (prefers-reduced-motion: no-preference) {
     d {
         position: absolute;
@@ -352,4 +353,21 @@ nav ol a :hover {
     align-items: center;
     justify-content: space-between;
     margin: 15px;
+}
+
+
+
+
+/* Phone Sizing */
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .name-page h1 {
+        font-size: 100px;
+    }
+    nav {
+        display: none;
+    }
 }
