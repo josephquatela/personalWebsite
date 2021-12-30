@@ -187,6 +187,11 @@ nav ol a :hover {
     background-image: url('../resources/Screen\ Shot\ 2021-12-22\ at\ 1.26.34\ PM.png');
 }
 
+#project-3:hover {
+    background-image: url('../resources/jammingphoto.png');
+    background-size: contain;
+}
+
 .card-content {
     display: flex;
     flex-direction: column;
