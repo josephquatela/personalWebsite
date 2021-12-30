@@ -4,6 +4,7 @@ Welcome to my personal website! Thanks for taking the time to check it out. The 
 You can view my experience, some of the skills Im' developing, and a few of my projects. 
 
 
+-------------------------------------
 ...Some things are still in development, like scroll transitions and the contact section...
 
 Enjoy!
