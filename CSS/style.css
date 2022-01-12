@@ -163,7 +163,7 @@ nav ol a :hover {
     justify-content: center;
     align-items: center;
     max-width: 300px;
-    margin: 50px;
+    margin: 30px;
 }
 
 .project-card {
@@ -193,6 +193,11 @@ nav ol a :hover {
 
 #project-3:hover {
     background-image: url('../resources/jammingphoto.png');
+    background-size: contain;
+}
+
+#project-4:hover {
+    background-image: url('../resources/lost-photo.png');
     background-size: contain;
 }
 
