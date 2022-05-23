@@ -197,8 +197,8 @@ nav ol a :hover {
 }
 
 #project-4:hover {
-    background-image: url('../resources/lost-photo.png');
-    background-size: contain;
+    background-image: url('../resources/rqoaf.png');
+    background-size: cover;
 }
 
 .card-content {
